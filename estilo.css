@@ -391,13 +391,13 @@
         /* seccion P O R T F O L I O */
         /* *********************/
         
-        #portfolio {
+        #experiencia {
             max-width: 1100px;
             padding: 100px 0;
             margin: auto;
         }
         
-        #portfolio .titulo-seccion {
+        #experiencia .titulo-seccion {
             text-align: center;
             font-size: 22px;
             text-transform: uppercase;
@@ -407,13 +407,13 @@
             text-decoration-thickness: 5px;
         }
         
-        #portfolio .fila {
+        #experiencia .fila {
             display: flex;
             justify-content: space-between;
             margin: 30px 0;
         }
         
-        #portfolio .fila .proyecto {
+        #experiencia .fila .proyecto {
             max-width: 450px;
             border: 1px solid #000;
             margin: 0 10px;
@@ -421,7 +421,7 @@
             overflow: hidden;
         }
         
-        #portfolio .fila .proyecto img {
+        #experiencia .fila .proyecto img {
             width: 100%;
             height: 100%;
             ;
@@ -430,11 +430,11 @@
             transition: .5s;
         }
         
-        #portfolio .fila .proyecto:hover img {
+        #experiencia .fila .proyecto:hover img {
             filter: grayscale(0);
         }
         
-        #portfolio .fila .proyecto .info {
+        #experiencia .fila .proyecto .info {
             position: absolute;
             left: 0px;
             background-color: rgba(0, 0, 0, 0.8);
@@ -446,7 +446,7 @@
             transition: .5s;
         }
         
-        #portfolio .fila .proyecto:hover .info {
+        #experiencia .fila .proyecto:hover .info {
             opacity: 1;
             bottom: 0;
         }
@@ -454,7 +454,7 @@
         /* seccion C O N T A C T O */
         /* *********************/
         
-        #contacto {
+       /* #contacto {
             padding: 100px 15px;
             background-color: #f3f3f3;
         }
@@ -514,7 +514,8 @@
         #contacto .btn-enviar:hover {
             background-color: #ff5080;
             color: #fff;
-        }
+        } */
+         
         /* *********************/
         /* seccion F O O T E R */
         /* *********************/
@@ -599,14 +600,14 @@
             .contenedor-skills {
                 padding: 50px 20px;
             }
-            /* seccion PORTFOLIO */
-            #portfolio {
+            /* seccion experiencia */
+            #experiencia {
                 padding: 50px 0;
             }
-            #portfolio .fila {
+            #experiencia .fila {
                 display: block;
             }
-            #portfolio .fila .proyecto {
+            #experiencia .fila .proyecto {
                 margin: 10px auto;
             }
             /* seccion CONTACTO */
